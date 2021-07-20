@@ -13,11 +13,12 @@
 
 #menu li a {
     text-decoration: none;
-    color: rgb(228, 159, 31);
+    color: orange;
 }
 
 #menu li a:hover {
-    color: rgb(209, 209, 12);
+    color: yellow;
+    font-size: 21px;
 }
 
 .br-50 {
@@ -40,8 +41,14 @@
     padding: 10px;
 }
 
+.edicao {}
+
 
 /* Estilos da página animes.html*/
+
+.justify {
+    text-align: justify;
+}
 
 
 /* Estilos da página indicacoes.html*/
