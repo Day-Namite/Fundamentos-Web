@@ -43,10 +43,11 @@
 
 /* Estilos da página animes.html*/
 
-.dire-item {
-    display: flex;
-    align-items: flex-end;
-}
-
 
 /* Estilos da página indicacoes.html*/
+
+.dire-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
