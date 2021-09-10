@@ -1,0 +1,60 @@
+/* Estilos da página index.html*/
+
+.center {
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+    margin: 0%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: orange;
+}
+
+#menu li a:hover {
+    color: yellow;
+    font-size: 21px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    justify-content: center;
+    flex-flow: row;
+}
+
+.tm {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.edicao {}
+
+
+/* Estilos da página animes.html*/
+
+.justify {
+    text-align: justify;
+}
+
+
+/* Estilos da página indicacoes.html*/
+
+.dire-item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

@@ -1,0 +1,137 @@
+/* Estilos da página index.html*/
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: orange;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    line-height: 80px;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.logo:hover {
+    opacity: 80%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+nav ul li a {
+    color: aliceblue;
+    border-radius: 3px;
+}
+
+li a:hover {
+    color: #FFBF00;
+    background: white;
+    opacity: 40%;
+    transition: .5s;
+}
+
+.center {
+    text-align: center;
+    font-family: cursive;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    justify-content: center;
+    flex-flow: row;
+}
+
+.tm {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+footer {
+    background: rgb(144, 154, 93);
+    background: linear-gradient(90deg, rgba(144, 154, 93, 1) 10%, rgba(220, 174, 3, 1) 34%, rgba(228, 56, 10, 1) 71%, rgba(255, 84, 44, 1) 100%);
+    height: 90px;
+    width: 100%;
+}
+
+footer a:hover {
+    opacity: 50%;
+}
+
+
+/* Estilos da página animes.html*/
+
+.justify {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+article img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.esp {
+    margin-top: 50px;
+}
+
+.esp2 {
+    margin-bottom: 30px;
+}
+
+.bor {
+    border-radius: 4px;
+}
+
+
+/* Estilos da página indicacoes.html*/
+
+.dire-item {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+
+/* Estilos da página sobre.html*/
+
+.font {
+    font-size: 20px;
+}
+
+.foto {
+    border-radius: 50px;
+    width: 500px;
+    height: 400px;
+}
